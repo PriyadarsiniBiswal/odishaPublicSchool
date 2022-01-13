@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+    background-image: linear-gradient(405deg, rgb(5, 5, 161) 50%, transparent 50%), url(./Image/OPSimg-1.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.header .nav-bar .logo-item {
+     display: flex;     
+     background: #2771e7;
+     align-items: center;
+     justify-content: space-around;
+}
+.header .nav-bar .logo-item .logo-title h3 {
+    color: rgb(207, 248, 25);
+    font-size: 1.5rem;
+}
+.header .nav-bar .logo-item .logo-title h3 span {
+    color: #fff;
+    font-size: 2rem;
+}
+.header .nav-bar .logo-item .news ul {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+.header .nav-bar .logo-item .news ul li {
+    list-style: none;
+    padding: 0.7rem;
+}
+.header .nav-bar .logo-item .news ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.header .nav-bar .logo-item .news ul li:first-child {
+    border: 2px solid #fff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 0;
+}
+.header .nav-bar .nav-bar-item {
+    background: #ec7113;
+}
+.header .nav-bar .nav-bar-item ul {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.header .nav-bar .nav-bar-item ul li {
+    list-style: none;
+    padding: 1.5rem;
+}
+.header .nav-bar .nav-bar-item ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+/*-------------------------------------header title-------------------------------------------*/
+
+.header .header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header .header-title h1 {
+    color: #fff;
+    letter-spacing: 0.2rem;   
+    padding: 10rem 0 0.7rem;
+}
+.header .header-title h1 span {
+    color: yellow;
+    font-size: 2.2rem;
+}
+.header .header-title button{
+    padding: 8px 15px;
+    color: #fff;
+    background: #ec7113;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+}
+/*-------------------------------------header Body-------------------------------------------*/
+.main-container {
+    margin-top: 2rem;
+}
+.main-container .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container .row .left-col {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    padding: 0 1rem 0 3rem;
+}
+.main-container .row .left-col h1 {
+    color: #1954d4;
+    text-align: center;
+    font-size: 2rem;
+}
+.main-container .row .left-col p {
+    text-align: justify;
+    padding-bottom: 0.5rem;
+    color: #444547;
+    font-size: 1.1rem;
+}
+.main-container .row .right-col {
+    width: 40%;
+    padding: 2rem; 
+}
+.main-container .row .right-col img{
+    width: 100%;
+}
+/*-------------------------------Blog section-------------------------------*/
+.blog {
+  width: 100%;
+  margin-top: 5rem;
+}
+.blog .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog .row .blog-img {
+    width: 20%;
+    height: 50%; 
+    padding: 10px;
+}
+.blog .row .blog-img img {
+    width: 100%;
+}
+.blog .row .blog-img .layer {
+    display: flex;
+    background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.8));
+    width: 18.6%;
+    height: 26.5%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+.blog .row .blog-img .layer h1 {
+    position: absolute;
+    color: #fff;
+    transform: translateY(100%);
+}
+/*-------------------------------Latest News section-------------------------------*/
+.events {
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(./Image/newImg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    margin-top: 5rem;
+    
+}
+.events .row {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.events .row .latest-event {
+    width: 28%;
+    padding: 5rem 0.5rem 0;
+}
+.events .row .latest-event img {
+    width: 100%;
+}
+.events .row .latest-event .news h2 {
+    color: rgb(12, 4, 27);
+}
+.events .row .latest-event .news button {
+    background: #34ebe5;
+    color: rgb(37, 34, 34);
+    font-weight: bold;
+    font-size: 15px;
+    padding:3px 5px;
+    border: none;
+    overflow: hidden;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.events .row .latest-event .news p {
+    color: rgb(22, 19, 19);
+}
+/*-------------------------Social media Icons---------------------------------*/
+.social-media {
+    background: linear-gradient(rgba(253, 216, 8, 0.2), rgba(247, 80, 14, 0.8)), yellow;
+    margin-top: 17rem;
+}
+.social-media .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.social-media .row .social-media-header h2 {
+    color: #fff;
+    font-size: 30px;
+}
+.social-media .row .social-media-icons .fab{
+   padding: 10px;
+   border-radius: 20px;
+}
+.social-media .row .social-media-icons .fa-twitter {
+    background: #1e7be6;
+    color: #fff;
+    font-size: 20px;
+}
+.social-media .row .social-media-icons .fa-facebook-f {
+    background: #070dba;
+    color: #fff;
+    font-size: 20px;
+}
+.social-media .row .social-media-icons .fa-youtube {
+    color: red;
+    background: #fff;
+    font-size: 20px;
+}
+.social-media .row .social-media-icons .fa-instagram {
+    background: linear-gradient(rgba(69, 3, 119, 0.3), rgba(207, 3, 34, 0.8));
+    color: #000;
+    font-size: 20px;
+}
+/*----------------------------footer---------------------------------*/
+.footer {
+    background: #06032e;
+    margin-top: 5rem;
+    height: 60vh;
+}
+.footer .footer-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+}
+.footer .footer-data table {
+    width: 80%;
+    color: #fff;
+    padding-bottom: 40px;
+    border-bottom: 2px solid rgb(168, 163, 163);
+}
+.footer .footer-data table th {
+    text-align: justify;
+    color: #e07109;
+}
+.footer .footer-data table th span {
+   color:  #2182eb;
+   font-size: 25px;
+}
+.footer .footer-data table td {
+    padding: 0.7rem;
+    cursor: pointer;
+}
+.footer .footer-data table td span {
+    color: #e07109;
+}
+.footer .footer-data table td .fab {
+    color: #fff;
+    background:  #2182eb;
+    padding: 7px;
+}
+.footer .footer-para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footer .footer-para p {
+    color: #fff;
+}
+
+
